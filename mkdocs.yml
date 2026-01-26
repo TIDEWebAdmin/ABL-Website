@@ -1,0 +1,32 @@
+site_name: TIDE Activity Based Learning
+
+use_directory_urls: true
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+
+nav:
+  - Home: index.md
+  - Resources:
+      - Worksheets: worksheets/index.md
+      - Games: games/index.md
+      - Kits: kits/index.md
+      - Flashcards: flashcards/index.md
+      - Sustainability Kits: sustainability_kits/index.md
+  - Grades:
+      - Grade 1: grade1/index.md
+      - Grade 2: grade2/index.md
+      - Grade 3: grade3/index.md
+      - Grade 4: grade4/index.md
+      - Grade 5: grade5/index.md
+
+plugins:
+  - tags
+  - search
+  - offline
+  - meta:
+      enabled: true
