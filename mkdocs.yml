@@ -23,10 +23,15 @@ nav:
       - Grade 3: grade3/index.md
       - Grade 4: grade4/index.md
       - Grade 5: grade5/index.md
-
+  - Template: worksheets/worksheet-temp.md
 plugins:
   - tags
   - search
   - offline
   - meta:
       enabled: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
